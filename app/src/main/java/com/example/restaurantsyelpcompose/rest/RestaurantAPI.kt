@@ -14,4 +14,5 @@ interface RestaurantAPI {
     suspend fun getRestaurantDetails(
         @Path(PARAM_UID) uid: String
     ) : Response<RestaurantResponse>
+
 }
