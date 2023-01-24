@@ -11,11 +11,10 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.restaurantsyelpcompose.ui.screens.HomeScreen
+import com.example.restaurantsyelpcompose.ui.screens.homeScreen.HomeScreen
 import com.example.restaurantsyelpcompose.ui.theme.RestaurantsYelpComposeTheme
 
 class MainActivity : ComponentActivity() {
