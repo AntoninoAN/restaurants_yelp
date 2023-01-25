@@ -4,7 +4,7 @@ sealed class UIState {
 
     object Loading: UIState()
     class Failure(val errorMessage: String): UIState()
-    data class Success (val response: String): UIState()
+    data class Success<T: Any> (val response: T): UIState()
     object Empty: UIState()
 
 }
