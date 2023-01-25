@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace 'com.example.restaurantsyelpcompose'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.restaurantsyelpcompose"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -86,4 +86,7 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    // Location Service
+    implementation "com.google.android.gms:play-services-location:21.0.1"
 }
